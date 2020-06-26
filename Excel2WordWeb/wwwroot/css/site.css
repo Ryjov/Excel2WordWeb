@@ -1,0 +1,142 @@
+﻿html {
+    height: 100%;
+    /*background-image: -webkit-linear-gradient(top,#ccffd2,white);
+	background-repeat: no-repeat;*/
+    box-sizing: border-box;
+    /*overflow-x: hidden;*/
+    background-color: #333;
+}
+
+body {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+#header {
+    padding: 10px 50px 0px 50px;
+    width: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+    background-color: #ffa500;
+    flex: 0 1 auto;
+    /* The above is shorthand for:
+	flex-grow: 0,
+	flex-shrink: 1,
+	flex-basis: auto
+	*/
+}
+
+#input_path {
+    float: left;
+    margin-right: 30px;
+}
+
+#merge_button {
+    color: #ffa500;
+    font-weight: bold;
+    transition: 0.2s;
+    height: 50px;
+    width: 400px;
+    border: none;
+    background-color: white;
+}
+
+    #merge_button:hover {
+        background-color: #ffa500;
+        font-weight: bolder;
+        color: white;
+        box-shadow: 0 0 10px #ffa500, 0 0 40px #ffa500, 0 0 80px #ffa500;
+    }
+
+#container {
+    margin: 0px 50px 0px 50px;
+    border: 2px solid #333;
+    background-color: #f0f0f0;
+    clear: both;
+    box-sizing: border-box;
+    flex: 1 1 auto;
+}
+
+#authorization_form {
+    float: right;
+    width: 40%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+#auth {
+    float: right;
+    box-sizing: border-box;
+}
+
+#main {
+    max-width: 60%;
+    background-color: white;
+    padding: 5% 0 0 10%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+#footer {
+    clear: both;
+    /*box-sizing: border-box;*/
+    text-align: center;
+    font-size: x-small;
+    color: #d4d0cf;
+}
+
+#hat {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+#navigation {
+    width: 100%;
+}
+
+#excel_path {
+    width: 800px;
+}
+
+.path {
+    width: 250px;
+}
+
+ul.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+p {
+    margin: 0;
+}
+
+.nav li {
+    list-style: none;
+    float: left;
+    width: 20%;
+}
+
+ul.nav a {
+    display: block;
+    /*width: 25%;*/
+    padding: 10px;
+    /*margin: 0 5px;*/
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none;
+    text-align: center;
+}
+
+    ul.nav a:hover {
+        background-color: #333;
+        color: #ffa500;
+    }
